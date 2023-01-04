@@ -413,11 +413,13 @@ h5
     width: 200px;
     height: 32px;
     font-size: 14px;
+    text-decoration: none;
     margin-top: 14px;
     color: var(--grey);
     background-color: white;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 /* borrar despues jaja */
