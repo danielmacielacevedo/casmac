@@ -414,7 +414,7 @@ h5
     height: 32px;
     font-size: 14px;
     margin-top: 14px;
-    color: red;
+    color: var(--grey);
     background-color: white;
     justify-content: center;
     align-items: center;
