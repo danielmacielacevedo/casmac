@@ -7,6 +7,9 @@ const langEs = document.querySelector('.lang-nav-es');
 const langEnMobile = document.querySelector('.mobile-lang-nav-en');
 const langEsMobile = document.querySelector('.mobile-lang-nav-es');
 
+const langEnContent= document.querySelector('.english');
+const langEsContent = document.querySelector('.spanish');
+
 
 if(localStorage.getItem('lang') == null)
 {
@@ -26,6 +29,9 @@ if(localData == 'es'){
     langEnMobile.classList.add('none');
     langEsMobile.classList.remove('none');
 
+    langEnContent.classList.add('none');
+    langEsContent.classList.remove('none');
+
 } else if(localData == 'en'){
 
     languageFlag.classList.remove('es');
@@ -35,6 +41,9 @@ if(localData == 'es'){
 
     langEnMobile.classList.remove('none');
     langEsMobile.classList.add('none');
+
+    langEnContent.classList.remove('none');
+    langEsContent.classList.add('none');
 
     document.body.classList.remove('lang');
 }
@@ -51,6 +60,9 @@ languageButton.onclick = function(){
         langEnMobile.classList.remove('none');
         langEsMobile.classList.add('none');
 
+        langEnContent.classList.remove('none');
+        langEsContent.classList.add('none');
+
         localStorage.setItem('lang', 'en');
     } else {
 
@@ -61,6 +73,9 @@ languageButton.onclick = function(){
 
         langEnMobile.classList.add('none');
         langEsMobile.classList.remove('none');
+
+        langEnContent.classList.add('none');
+        langEsContent.classList.remove('none');
 
         localStorage.setItem('lang', 'es');
     }

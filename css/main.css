@@ -171,7 +171,9 @@ h5
 .lang-nav-en.none,
 .lang-nav-es.none,
 .mobile-lang-nav-en.none,
-.mobile-lang-nav-es.none
+.mobile-lang-nav-es.none,
+.english.none,
+.spanish.none
 {
     display: none;
 }
@@ -386,7 +388,7 @@ h5
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 85.8vh;
     position: relative;
     background-color: #000000a8;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
@@ -402,7 +404,7 @@ h5
 {
     display: block;
     width: 100%;
-    height: 80vh;
+    height: 85.8vh;
     object-fit: cover;
     object-position: center;
     background-position: center bottom;
