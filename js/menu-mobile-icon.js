@@ -1,4 +1,4 @@
-console.log("hola guap@ <3")
+console.log("Powered by Daniel Maciel Acevedo")
 
 const menuButton = document.querySelector('.menu-button');
 const menuContent = document.querySelector('.menu-mobile-background');
