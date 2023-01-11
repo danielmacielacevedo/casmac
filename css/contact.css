@@ -439,8 +439,7 @@ h5
     top: -40px;
     width: 150px;
     height: 150px;
-    outline: 8px solid white;
-    outline-offset: -2px;
+    border: 8px solid white;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -468,7 +467,7 @@ h5
     display: flex;
     position: relative;
     background-color: rgb(22, 22, 22);
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     padding: 20px;
     text-decoration: none;
