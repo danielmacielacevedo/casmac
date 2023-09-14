@@ -79,7 +79,7 @@ h5
 .nav-container
 {
     position: fixed;
-    z-index: 2;
+    z-index: 999999;
     top: 0;
     width: 100%;
     min-width: 320px;
@@ -620,7 +620,7 @@ h5
 .footer-container
 {
     position: relative;
-    z-index: 9999999;
+    z-index: 999999;
     display: flex;
     width: 100%;
     height: auto;
