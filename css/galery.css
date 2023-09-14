@@ -595,6 +595,11 @@ h5
     border-radius: 8px 0 8px 0;
     text-align: center;
     justify-content: center;
+} 
+
+#gallery-container
+{
+    flex-direction: column;
 }
 
 
@@ -614,13 +619,17 @@ h5
 /* footer */
 .footer-container
 {
+    position: relative;
+    z-index: 9999999;
     display: flex;
     width: 100%;
     height: auto;
     align-self: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: red;
+    /* background-color: #000000; */
     transition: .3s;
+    margin-top: -56px;
 
 }
 .footer-area
