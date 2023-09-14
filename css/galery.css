@@ -599,6 +599,7 @@ h5
 
 #gallery-container
 {
+    margin-top: 60px;
     flex-direction: column;
 }
 
