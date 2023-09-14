@@ -603,6 +603,13 @@ h5
     flex-direction: column;
 }
 
+.eapps-instagram-feed-posts-grid-load-more-text, 
+.eapps-instagram-feed-posts-grid-load-more-text-visible
+{
+    color: #000000;
+    background-color: #fff;
+}
+
 
 
 
